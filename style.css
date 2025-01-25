@@ -1,0 +1,77 @@
+.text1 {
+    font-size: 5rem;
+    
+}
+
+html {
+    background-color: lightskyblue;
+}
+
+.images img{
+    width:500px;
+    margin-right:1rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    animation: picture-appear 7s;
+}
+
+.text1 {
+    animation: appear 5s;
+}
+
+@keyframes appear {
+    0% {
+        opacity:0;
+    }
+
+    25% {
+        opacity:0.25;
+    }
+
+    50% {
+        opacity:0.5;
+    }
+
+    75% {
+        opacity:0.75;
+    }
+
+    100% {
+        opacity:1;
+        color:violet;
+    }
+}
+
+@keyframes picture-appear {
+    0% {
+        opacity:0;
+    }
+    25% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    75% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color:black;
+    margin:2rem;
+}
+
+.next {
+    text-align: center;
+}
